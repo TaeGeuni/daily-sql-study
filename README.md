@@ -16,6 +16,10 @@
 
 ```text
 📦 daily-sql-study
+ ┣ 📂 Theory
+ ┃ ┣ 📜 01_Relational_Algebra.md
+ ┃ ┣ 📜 02_Normalization.md
+ ┃ ┗ 📜 03_Transaction_&_Concurrency.md
  ┣ 📂 LeetCode
  ┃ ┣ 📂 Easy
  ┃ ┃ ┣ 📜 175_Combine_Two_Tables.sql
@@ -26,14 +30,17 @@
  ┃ ┣ 📂 Basic
  ┃ ┣ 📂 Intermediate
  ┃ ┗ 📂 Advanced
- ┗ 📜 README.md
- ```
+ ┗ 📜 README.md ```
+```
 
 ## 파일 작성 규칙 (Convention)
-각 문제에 대해 다음 두 가지 파일을 작성합니다.
+### 1. 이론 공부 (Theory/)
+- 개념 정리 파일은 순번_개념명.md 형식으로 작성합니다.
+- 단순 암기식 요약보다는 '이 기술/개념이 왜 필요한지', '실무 및 시험에서 어떻게 활용되는지' 원리 중심으로 정리합니다.
 
-1. 문제이름.sql: 정답으로 통과한 SQL 쿼리문
-2. 문제이름.md: 문제의 핵심 요구사항, 접근 방식(JOIN, 서브쿼리 등), 쿼리 성능 분석 및 새롭게 배운 점(TIL) 정리
+### 2. 문제 풀이 (LeetCode/, HackerRank/)
+- 문제이름.sql: 정답으로 통과한 정제된 SQL 쿼리문
+- 문제이름.md: 문제 핵심 요구사항, 접근 방식(JOIN, 서브쿼리 등), 쿼리 성능 분석 및 배운 점(TIL) 정리
 
 ## 커밋 메시지 규칙 (Commit Convention)
 - `[플랫폼] 난이도 - 문제명` 형식으로 작성합니다.
